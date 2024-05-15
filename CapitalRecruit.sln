@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalRecruit.Api", "CapitalRecruit.Api\CapitalRecruit.Api.csproj", "{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Application", "..\api-proj\CapitalRecruit\CapitalRecruit.Application\CapitalRecruit.Application.csproj", "{C9895EAF-BD60-47E0-A85F-397C0BC331C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Domain", "..\api-proj\CapitalRecruit\CapitalRecruit.Domain\CapitalRecruit.Domain.csproj", "{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Infrastructure", "..\api-proj\CapitalRecruit\CapitalRecruit.Infrastructure\CapitalRecruit.Infrastructure.csproj", "{479CC5E8-8495-442E-8078-775E1F921680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9895EAF-BD60-47E0-A85F-397C0BC331C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9895EAF-BD60-47E0-A85F-397C0BC331C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9895EAF-BD60-47E0-A85F-397C0BC331C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9895EAF-BD60-47E0-A85F-397C0BC331C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479CC5E8-8495-442E-8078-775E1F921680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479CC5E8-8495-442E-8078-775E1F921680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479CC5E8-8495-442E-8078-775E1F921680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479CC5E8-8495-442E-8078-775E1F921680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\api-proj\CapitalRecruit\CapitalRecruit.Application\CapitalRecruit.Application.csproj" />
     <ProjectReference Include="..\CapitalRecruit.Application\CapitalRecruit.Application.csproj" />
     <ProjectReference Include="..\CapitalRecruit.Infrastructure\CapitalRecruit.Infrastructure.csproj" />
   </ItemGroup>

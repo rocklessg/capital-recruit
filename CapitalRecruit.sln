@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalRecruit.Api", "CapitalRecruit.Api\CapitalRecruit.Api.csproj", "{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Api", "CapitalRecruit.Api\CapitalRecruit.Api.csproj", "{E4A63119-D8EB-4334-B7ED-3FFC10A9734D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Application", "..\api-proj\CapitalRecruit\CapitalRecruit.Application\CapitalRecruit.Application.csproj", "{C9895EAF-BD60-47E0-A85F-397C0BC331C5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Domain", "..\api-proj\CapitalRecruit\CapitalRecruit.Domain\CapitalRecruit.Domain.csproj", "{2C936B71-E9E1-4985-A5FE-DA5A5B5DD36C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalRecruit.Infrastructure", "..\api-proj\CapitalRecruit\CapitalRecruit.Infrastructure\CapitalRecruit.Infrastructure.csproj", "{479CC5E8-8495-442E-8078-775E1F921680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalRecruit.Test", "CapitalRecruit.Test\CapitalRecruit.Test.csproj", "{E591251B-C069-4104-AD9F-EBEA1F47A3FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{479CC5E8-8495-442E-8078-775E1F921680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479CC5E8-8495-442E-8078-775E1F921680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479CC5E8-8495-442E-8078-775E1F921680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E591251B-C069-4104-AD9F-EBEA1F47A3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E591251B-C069-4104-AD9F-EBEA1F47A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E591251B-C069-4104-AD9F-EBEA1F47A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E591251B-C069-4104-AD9F-EBEA1F47A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

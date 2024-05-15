@@ -1,6 +1,5 @@
 ﻿using CapitalRecruit.Application.Services.Implementations;
 using CapitalRecruit.Application.Services.Interfaces;
-using CapitalRecruit.Domain.Entities;
 using CapitalRecruit.Infrastructure.Data;
 using CapitalRecruit.Infrastructure.Repositories.Implementations;
 using CapitalRecruit.Infrastructure.Repositories.Interfaces;

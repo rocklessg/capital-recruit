@@ -1,8 +1,5 @@
-using System.Configuration;
 using CapitalRecruit.Api.Extensions;
-using CapitalRecruit.Infrastructure.Data;
 using Microsoft.Azure.Cosmos;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -11,6 +11,7 @@ In this project, I demonstrated;
 - Use of Generic repository to avoid repeatication of common CRUD operations
 - Unit test to ensure application features reliability.
 - Security in not exposing sensitive information withing the code base.
+- Clean architecture implementation.
 - Tactical comments to explain my reasoning Why I implemented certain logics in certain way.
 
 # Tools used

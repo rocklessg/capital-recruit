@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Common;
 using CapitalRecruit.Infrastructure.Data;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
@@ -33,10 +28,6 @@ namespace CapitalRecruit.Test
 
             _context = new AppDbContext(options);
             _context.Database.EnsureCreated();
-
-            //var dbContext = new AppDbContext(options);
-            //dbContext.Database.EnsureCreated();
-            //_context = new DbContext(dbContext);
         }
 
         public void Dispose()

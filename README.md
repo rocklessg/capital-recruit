@@ -8,6 +8,7 @@ In this project, I demonstrated;
 - The use of dependency injection.
 - Abstraction of some configurations out of program.cs class for code cleaness.
 - Use of NoSql CosmosDb
+- Use of Generic repository to avoid repeatication of common CRUD operations
 - Unit test to ensure application features reliability.
 - Security in not exposing sensitive information withing the code base.
 - Tactical comments to explain my reasoning Why I implemented certain logics in certain way.
